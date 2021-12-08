@@ -1,0 +1,289 @@
+html,body{
+	height:100%;
+	padding:0;
+	margin:0;
+	background:#F4F4F4;
+}
+/* #home_back{
+	height:100vh;
+	width:100%;
+	background-image: url(home_back.jpeg);
+	background-size: cover;
+	display: table;
+	background-attachment:fixed;
+}
+#img_par{
+	margin-top:30px;
+	vertical-align:center;
+	text-align:center;
+} */
+#grad1 {
+	margin:0px;
+	height: 180px;
+	width: 100%;
+  background: red; /* For browsers that do not support gradients */
+  background: linear-gradient(#00863E, #46C280); /* Standard syntax (must be last) */
+	display:inline-block;
+}
+
+#msit{
+	color:White;
+	text-align: center ;
+	font-size:30px;
+	margin-top:10px;
+	margin-bottom:-30px;
+}
+
+#msit1{
+	color:White;
+	text-align: center ;
+	margin-top:40px;
+	margin-bottom:-20px;
+}
+
+#move{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	background:white;
+	text-align:center;
+	padding-top:5px;
+	height:30px;
+	margin-top:-15px;
+	color:blue;
+}
+
+#img{
+	margin-top:10px;
+	margin-left:30px;
+  height: 0px;
+  width: 20%;
+}
+#inner_block{
+	background: black;
+	height:53px;
+	width:100%;
+	margin-top:50px;
+}
+
+ul.nav_bar {
+    list-style-type: none;
+    margin: 10;
+		margin-left:100px;
+    padding: 10;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+
+}
+
+.nav_bar>li>a {
+    display: block;
+		color: white;
+		font-size: 14px;
+		font-family: arial;
+    text-align: center;
+    padding: 16px;
+		margin-left:70px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+		width: 90%;
+    border: 0;
+    border-top: 1px solid #eee;
+	}
+	h3{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		font-family: sans-serif;
+		text-align: center;
+		font-size: 18px;
+	}
+
+.card_center {
+    /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-left:20px;
+	margin_right:20px;
+	margin-top:15px;
+	margin-bottom: 150px;
+	padding-bottom: 50px;
+	width: 65%;
+	height: auto;
+	border-radius: 10px;
+	background: white;
+	float: center;
+	display:  inline-block;
+
+
+}
+.mySlides{
+	display: none;
+}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 30px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: inherit;
+	background: black;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.card_left {
+    /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-right:50px;
+	margin-left:80px;
+	margin-top:15px;
+  width: 13%;
+	border-radius: 10px;
+	height: 400px;
+	background: white;
+	float: left;
+	display:  inline-block;
+
+}
+.top_head{
+	background: black;
+	color: white;
+	height: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	vertical-align: center;
+}
+
+h4{
+	color: orange;
+	padding-left: 10px;
+	font-family: sans-serif;
+	text-align: left;
+	font-family: arial;
+	font-style: bold;
+	font-size: 15px;
+}
+.clear {
+    clear: both;
+}
+ul.link_heads{
+	margin-top: -10px;
+}
+li.link_items{
+	color: #00796B;
+	font-family: arial;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.link_heads>.link_items>a:hover{
+	color: #4B74D2;
+	background: none;
+	cursor: pointer;
+}
+.link_heads>.link_items>a{
+	color: #00796B;
+	text-decoration: none;
+}
+.footer{
+	background: #3D3C3C;
+	position: absolute;
+   bottom: 0;
+	 height: 60px;
+   width: 100%;
+	 color: white;
+   text-align: center;
+}
+.container {
+   min-height:100%;
+   position:relative;
+}
